@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B510B44317B0942100FC5E71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B510B44217B0942100FC5E71 /* UIKit.framework */; };
+		B510B44517B0942100FC5E71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B510B44417B0942100FC5E71 /* Foundation.framework */; };
+		B510B44717B0942100FC5E71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B510B44617B0942100FC5E71 /* CoreGraphics.framework */; };
+		B510B44D17B0942100FC5E71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B510B44B17B0942100FC5E71 /* InfoPlist.strings */; };
+		B510B44F17B0942100FC5E71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B510B44E17B0942100FC5E71 /* main.m */; };
+		B510B45317B0942100FC5E71 /* DAPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B510B45217B0942100FC5E71 /* DAPAppDelegate.m */; };
+		B510B45517B0942100FC5E71 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B510B45417B0942100FC5E71 /* Default.png */; };
+		B510B45717B0942100FC5E71 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B510B45617B0942100FC5E71 /* Default@2x.png */; };
+		B510B45917B0942100FC5E71 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B510B45817B0942100FC5E71 /* Default-568h@2x.png */; };
+		B510B45C17B0942100FC5E71 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B510B45A17B0942100FC5E71 /* MainStoryboard.storyboard */; };
+		B510B45F17B0942100FC5E71 /* DAPFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B510B45E17B0942100FC5E71 /* DAPFirstViewController.m */; };
+		B510B46117B0942100FC5E71 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B510B46017B0942100FC5E71 /* first.png */; };
+		B510B46317B0942100FC5E71 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B510B46217B0942100FC5E71 /* first@2x.png */; };
+		B510B46617B0942100FC5E71 /* DAPSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B510B46517B0942100FC5E71 /* DAPSecondViewController.m */; };
+		B510B46817B0942100FC5E71 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B510B46717B0942100FC5E71 /* second.png */; };
+		B510B46A17B0942100FC5E71 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B510B46917B0942100FC5E71 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B510B43F17B0942100FC5E71 /* PrivateDancer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateDancer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B510B44217B0942100FC5E71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B510B44417B0942100FC5E71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B510B44617B0942100FC5E71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B510B44A17B0942100FC5E71 /* PrivateDancer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrivateDancer-Info.plist"; sourceTree = "<group>"; };
+		B510B44C17B0942100FC5E71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B510B44E17B0942100FC5E71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B510B45017B0942100FC5E71 /* PrivateDancer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrivateDancer-Prefix.pch"; sourceTree = "<group>"; };
+		B510B45117B0942100FC5E71 /* DAPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAPAppDelegate.h; sourceTree = "<group>"; };
+		B510B45217B0942100FC5E71 /* DAPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAPAppDelegate.m; sourceTree = "<group>"; };
+		B510B45417B0942100FC5E71 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B510B45617B0942100FC5E71 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B510B45817B0942100FC5E71 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B510B45B17B0942100FC5E71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B510B45D17B0942100FC5E71 /* DAPFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAPFirstViewController.h; sourceTree = "<group>"; };
+		B510B45E17B0942100FC5E71 /* DAPFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAPFirstViewController.m; sourceTree = "<group>"; };
+		B510B46017B0942100FC5E71 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B510B46217B0942100FC5E71 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B510B46417B0942100FC5E71 /* DAPSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAPSecondViewController.h; sourceTree = "<group>"; };
+		B510B46517B0942100FC5E71 /* DAPSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAPSecondViewController.m; sourceTree = "<group>"; };
+		B510B46717B0942100FC5E71 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B510B46917B0942100FC5E71 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B510B43C17B0942100FC5E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B510B44317B0942100FC5E71 /* UIKit.framework in Frameworks */,
+				B510B44517B0942100FC5E71 /* Foundation.framework in Frameworks */,
+				B510B44717B0942100FC5E71 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B510B43617B0942100FC5E71 = {
+			isa = PBXGroup;
+			children = (
+				B510B44817B0942100FC5E71 /* PrivateDancer */,
+				B510B44117B0942100FC5E71 /* Frameworks */,
+				B510B44017B0942100FC5E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B510B44017B0942100FC5E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B510B43F17B0942100FC5E71 /* PrivateDancer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B510B44117B0942100FC5E71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B510B44217B0942100FC5E71 /* UIKit.framework */,
+				B510B44417B0942100FC5E71 /* Foundation.framework */,
+				B510B44617B0942100FC5E71 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B510B44817B0942100FC5E71 /* PrivateDancer */ = {
+			isa = PBXGroup;
+			children = (
+				B510B45117B0942100FC5E71 /* DAPAppDelegate.h */,
+				B510B45217B0942100FC5E71 /* DAPAppDelegate.m */,
+				B510B45A17B0942100FC5E71 /* MainStoryboard.storyboard */,
+				B510B45D17B0942100FC5E71 /* DAPFirstViewController.h */,
+				B510B45E17B0942100FC5E71 /* DAPFirstViewController.m */,
+				B510B46017B0942100FC5E71 /* first.png */,
+				B510B46217B0942100FC5E71 /* first@2x.png */,
+				B510B46417B0942100FC5E71 /* DAPSecondViewController.h */,
+				B510B46517B0942100FC5E71 /* DAPSecondViewController.m */,
+				B510B46717B0942100FC5E71 /* second.png */,
+				B510B46917B0942100FC5E71 /* second@2x.png */,
+				B510B44917B0942100FC5E71 /* Supporting Files */,
+			);
+			path = PrivateDancer;
+			sourceTree = "<group>";
+		};
+		B510B44917B0942100FC5E71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B510B44A17B0942100FC5E71 /* PrivateDancer-Info.plist */,
+				B510B44B17B0942100FC5E71 /* InfoPlist.strings */,
+				B510B44E17B0942100FC5E71 /* main.m */,
+				B510B45017B0942100FC5E71 /* PrivateDancer-Prefix.pch */,
+				B510B45417B0942100FC5E71 /* Default.png */,
+				B510B45617B0942100FC5E71 /* Default@2x.png */,
+				B510B45817B0942100FC5E71 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B510B43E17B0942100FC5E71 /* PrivateDancer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B510B46D17B0942100FC5E71 /* Build configuration list for PBXNativeTarget "PrivateDancer" */;
+			buildPhases = (
+				B510B43B17B0942100FC5E71 /* Sources */,
+				B510B43C17B0942100FC5E71 /* Frameworks */,
+				B510B43D17B0942100FC5E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivateDancer;
+			productName = PrivateDancer;
+			productReference = B510B43F17B0942100FC5E71 /* PrivateDancer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B510B43717B0942100FC5E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DAP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "De Haven Prillerman";
+			};
+			buildConfigurationList = B510B43A17B0942100FC5E71 /* Build configuration list for PBXProject "PrivateDancer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B510B43617B0942100FC5E71;
+			productRefGroup = B510B44017B0942100FC5E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B510B43E17B0942100FC5E71 /* PrivateDancer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B510B43D17B0942100FC5E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B510B44D17B0942100FC5E71 /* InfoPlist.strings in Resources */,
+				B510B45517B0942100FC5E71 /* Default.png in Resources */,
+				B510B45717B0942100FC5E71 /* Default@2x.png in Resources */,
+				B510B45917B0942100FC5E71 /* Default-568h@2x.png in Resources */,
+				B510B45C17B0942100FC5E71 /* MainStoryboard.storyboard in Resources */,
+				B510B46117B0942100FC5E71 /* first.png in Resources */,
+				B510B46317B0942100FC5E71 /* first@2x.png in Resources */,
+				B510B46817B0942100FC5E71 /* second.png in Resources */,
+				B510B46A17B0942100FC5E71 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B510B43B17B0942100FC5E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B510B44F17B0942100FC5E71 /* main.m in Sources */,
+				B510B45317B0942100FC5E71 /* DAPAppDelegate.m in Sources */,
+				B510B45F17B0942100FC5E71 /* DAPFirstViewController.m in Sources */,
+				B510B46617B0942100FC5E71 /* DAPSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B510B44B17B0942100FC5E71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B510B44C17B0942100FC5E71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B510B45A17B0942100FC5E71 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B510B45B17B0942100FC5E71 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B510B46B17B0942100FC5E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B510B46C17B0942100FC5E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B510B46E17B0942100FC5E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrivateDancer/PrivateDancer-Prefix.pch";
+				INFOPLIST_FILE = "PrivateDancer/PrivateDancer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B510B46F17B0942100FC5E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrivateDancer/PrivateDancer-Prefix.pch";
+				INFOPLIST_FILE = "PrivateDancer/PrivateDancer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B510B43A17B0942100FC5E71 /* Build configuration list for PBXProject "PrivateDancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B510B46B17B0942100FC5E71 /* Debug */,
+				B510B46C17B0942100FC5E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B510B46D17B0942100FC5E71 /* Build configuration list for PBXNativeTarget "PrivateDancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B510B46E17B0942100FC5E71 /* Debug */,
+				B510B46F17B0942100FC5E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B510B43717B0942100FC5E71 /* Project object */;
+}

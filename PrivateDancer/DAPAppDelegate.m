@@ -7,12 +7,17 @@
 //
 
 #import "DAPAppDelegate.h"
-
+#import <Parse/Parse.h>
 @implementation DAPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    //
+    
+    [Parse setApplicationId:@"oxDskQycSs8S6LXBNpryeLmfccN6LBjxg0EinIyE"
+                  clientKey:@"c1YWU7ShIDQayLErZ6IPYBs5HUce7LhfIpwFDIz4"];
+
+    
     return YES;
 }
 							

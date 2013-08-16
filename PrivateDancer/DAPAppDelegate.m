@@ -17,8 +17,10 @@
     [Parse setApplicationId:@"oxDskQycSs8S6LXBNpryeLmfccN6LBjxg0EinIyE"
                   clientKey:@"c1YWU7ShIDQayLErZ6IPYBs5HUce7LhfIpwFDIz4"];
 
-    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
+    
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

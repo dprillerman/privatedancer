@@ -19,10 +19,10 @@
             </objects>
             <point key="canvasLocation" x="-137" y="326"/>
         </scene>
-        <!--View Controller - Private Dancer Login-->
+        <!--Login View Controller - Private Dancer Login-->
         <scene sceneID="Vch-z3-E65">
             <objects>
-                <viewController id="Vxd-BH-9Rh" sceneMemberID="viewController">
+                <viewController id="Vxd-BH-9Rh" customClass="DAPLoginViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Du3-AT-v1w">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -47,6 +47,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="logInPressed:" destination="Vxd-BH-9Rh" eventType="touchUpInside" id="fTp-cY-cZD"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="New User ?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LzG-qH-jse">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -65,24 +68,24 @@
                             </button>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jlj-Xb-dVK">
                                 <items>
-                                    <navigationItem title="Private Dancer Login" id="zDS-wH-U6i"/>
+                                    <navigationItem title="Strippergram" id="zDS-wH-U6i"/>
                                 </items>
                             </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="uJt-FK-RnI" firstAttribute="leading" secondItem="Gjn-Dp-Idr" secondAttribute="leading" type="default" id="3yP-k2-EXT"/>
+                            <constraint firstItem="RCg-MJ-l7X" firstAttribute="leading" secondItem="Du3-AT-v1w" secondAttribute="leading" constant="44" id="8Qg-Hr-GCb"/>
                             <constraint firstItem="Pe2-zv-UYa" firstAttribute="leading" secondItem="LzG-qH-jse" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="DcT-vn-z23"/>
                             <constraint firstItem="uJt-FK-RnI" firstAttribute="leading" secondItem="RCg-MJ-l7X" secondAttribute="leading" type="default" id="Hwn-3O-t7y"/>
                             <constraint firstItem="uJt-FK-RnI" firstAttribute="trailing" secondItem="Gjn-Dp-Idr" secondAttribute="trailing" type="default" id="JiZ-6K-XYz"/>
                             <constraint firstItem="RCg-MJ-l7X" firstAttribute="trailing" secondItem="uJt-FK-RnI" secondAttribute="trailing" type="default" id="KIa-v8-jK7"/>
                             <constraint firstItem="uJt-FK-RnI" firstAttribute="top" secondItem="Du3-AT-v1w" secondAttribute="top" constant="138" id="Mj5-CD-Aos"/>
                             <constraint firstItem="Jlj-Xb-dVK" firstAttribute="leading" secondItem="Du3-AT-v1w" secondAttribute="leading" type="default" id="XVQ-vr-Uk0"/>
+                            <constraint firstItem="RCg-MJ-l7X" firstAttribute="top" secondItem="Du3-AT-v1w" secondAttribute="top" constant="188" id="YD9-H1-xHK"/>
                             <constraint firstItem="Pe2-zv-UYa" firstAttribute="trailing" secondItem="RCg-MJ-l7X" secondAttribute="trailing" type="default" id="gUE-62-OTX"/>
                             <constraint firstItem="Jlj-Xb-dVK" firstAttribute="trailing" secondItem="Du3-AT-v1w" secondAttribute="trailing" type="default" id="jA2-Vk-lQb"/>
                             <constraint firstItem="Jlj-Xb-dVK" firstAttribute="top" secondItem="Du3-AT-v1w" secondAttribute="top" type="default" id="jRv-Kc-AaT"/>
-                            <constraint firstItem="LzG-qH-jse" firstAttribute="leading" secondItem="Du3-AT-v1w" secondAttribute="leading" constant="64" id="jt9-P3-MwV"/>
-                            <constraint firstItem="RCg-MJ-l7X" firstAttribute="top" secondItem="Du3-AT-v1w" secondAttribute="top" constant="186" id="jv9-uk-GGm"/>
                             <constraint firstItem="Pe2-zv-UYa" firstAttribute="baseline" secondItem="LzG-qH-jse" secondAttribute="baseline" type="default" id="ogp-yF-Dx0"/>
                             <constraint firstItem="Gjn-Dp-Idr" firstAttribute="top" secondItem="Du3-AT-v1w" secondAttribute="top" constant="90" id="rza-ck-QB6"/>
                             <constraint firstItem="Pe2-zv-UYa" firstAttribute="top" secondItem="Du3-AT-v1w" secondAttribute="top" constant="244" id="vtS-sw-kUs"/>
@@ -90,19 +93,15 @@
                     </view>
                     <navigationItem key="navigationItem" title="Private Dancer Login" id="UOC-rl-uAx"/>
                     <connections>
-                        <outlet property="view" destination="Du3-AT-v1w" id="NvE-nr-WlN"/>
+                        <outlet property="passwordTextField" destination="uJt-FK-RnI" id="VrD-kp-5Wm"/>
+                        <outlet property="userTextField" destination="Gjn-Dp-Idr" id="WsP-Zt-NLM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CKM-eN-WYH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="362" y="326"/>
+            <point key="canvasLocation" x="394" y="308"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
